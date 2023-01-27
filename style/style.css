@@ -43,6 +43,7 @@ body {
     background-color: var(--body-color);
     transition: .5s;
     font-size: var(--normal-font-size);
+    position: relative;
 }
 
 * {
@@ -253,14 +254,14 @@ img {
 .nav__img-1 {
     width: 100px;
     top: .75rem;
-    left: -2rem;
+    left: 28px;
     transform: rotate(165deg);
 }
 
 .nav__img-2 {
     width: 50px;
-    right: -1rem;
-    bottom: 0;
+    right: 26px;
+    bottom: 80px;
     transform: rotate(-30deg);
 }
 
@@ -334,7 +335,7 @@ img {
 .home__leaf-1 {
     width: 80px;
     top: 8rem;
-    left: -1rem;
+    left: 3rem;
     transform: rotate(90deg);
 }
 
@@ -554,13 +555,13 @@ img {
 .recently__leaf-1 {
     width: 80px;
     top: 17rem;
-    left: -1rem;
+    left: 2rem;
     transform: rotate(15deg);
 }
 
 .recently__leaf-2 {
     width: 40px;
-    right: 2rem;
+    right: 4rem;
     bottom: 12rem;
     transform: rotate(-30deg);
 }
